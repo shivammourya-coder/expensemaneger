@@ -89,17 +89,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Expenses Manager — Smart Expense Tracker" },
       {
         property: "og:description",
-        content: "Clean, modern expense tracking with budgets, analytics and export.",
+        content: "Track income, expenses, budgets and analytics with Expenses Manager — a clean, modern personal finance dashboard.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Expenses Manager — Smart Expense Tracker" },
+      { name: "twitter:description", content: "Track income, expenses, budgets and analytics with Expenses Manager — a clean, modern personal finance dashboard." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/9rrXVWr4pcMlyl1JJetqJhoHb2s1/social-images/social-1783855578156-1000095956.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/9rrXVWr4pcMlyl1JJetqJhoHb2s1/social-images/social-1783855578156-1000095956.webp" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
   shellComponent: RootShell,
