@@ -14,8 +14,8 @@ import { SiteFooter } from "@/components/site-footer";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Sign in — Paisa" },
-      { name: "description", content: "Sign in or create your Paisa expense tracker account." },
+      { title: "Sign in — Expenses Manager" },
+      { name: "description", content: "Sign in or create your Expenses Manager expense tracker account." },
     ],
   }),
   component: AuthPage,
@@ -86,7 +86,7 @@ function AuthPage() {
             >
               <Wallet className="h-5 w-5" />
             </div>
-            <span className="text-lg font-semibold tracking-tight">Paisa</span>
+            <span className="text-lg font-semibold tracking-tight">Expenses Manager</span>
           </Link>
           <Card className="shadow-[var(--shadow-soft)]">
             <CardHeader>

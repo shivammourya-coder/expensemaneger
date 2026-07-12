@@ -28,7 +28,7 @@ function Index() {
           >
             <Wallet className="h-5 w-5" />
           </div>
-          <span className="text-lg font-semibold tracking-tight">Paisa</span>
+          <span className="text-lg font-semibold tracking-tight">Expenses Manager</span>
         </div>
         <div className="flex items-center gap-2">
           <ThemeToggle />
@@ -58,7 +58,7 @@ function Index() {
               </span>
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">
-              Paisa is a clean, modern expense tracker for students and professionals.
+              Expenses Manager is a clean, modern expense tracker for students and professionals.
               Log transactions, set budgets, watch analytics update in real time — and
               export whenever you need.
             </p>

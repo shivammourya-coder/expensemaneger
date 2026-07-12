@@ -13,7 +13,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const stored =
       typeof window !== "undefined"
-        ? (window.localStorage.getItem("paisa-theme") as Theme | null)
+        ? (window.localStorage.getItem("expenses-manager-theme") as Theme | null)
         : null;
     const initial: Theme = stored ?? "dark";
     setTheme(initial);
@@ -25,7 +25,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       const next: Theme = prev === "dark" ? "light" : "dark";
       document.documentElement.classList.toggle("dark", next === "dark");
       try {
-        window.localStorage.setItem("paisa-theme", next);
+        window.localStorage.setItem("expenses-manager-theme", next);
       } catch {
         /* ignore */
       }

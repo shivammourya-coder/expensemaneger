@@ -54,7 +54,7 @@ export function AppSidebar() {
             <Wallet className="h-5 w-5" />
           </div>
           <div className="flex flex-col leading-tight group-data-[collapsible=icon]:hidden">
-            <span className="text-sm font-semibold tracking-tight">Paisa</span>
+            <span className="text-sm font-semibold tracking-tight">Expenses Manager</span>
             <span className="text-[10px] text-muted-foreground">Expense Tracker</span>
           </div>
         </div>

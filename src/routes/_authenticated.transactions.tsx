@@ -31,7 +31,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 
 export const Route = createFileRoute("/_authenticated/transactions")({
-  head: () => ({ meta: [{ title: "Transactions — Paisa" }] }),
+  head: () => ({ meta: [{ title: "Transactions — Expenses Manager" }] }),
   component: TransactionsPage,
 });
 
@@ -130,7 +130,7 @@ function TransactionsPage() {
   const exportPDF = () => {
     const doc = new jsPDF();
     doc.setFontSize(16);
-    doc.text("Paisa — Transactions", 14, 16);
+    doc.text("Expenses Manager — Transactions", 14, 16);
     doc.setFontSize(10);
     doc.text(`Exported ${new Date().toLocaleString()}`, 14, 22);
     autoTable(doc, {

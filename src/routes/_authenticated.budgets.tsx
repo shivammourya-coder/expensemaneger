@@ -13,7 +13,7 @@ import { toast } from "sonner";
 import { AlertTriangle, PiggyBank } from "lucide-react";
 
 export const Route = createFileRoute("/_authenticated/budgets")({
-  head: () => ({ meta: [{ title: "Budgets — Paisa" }] }),
+  head: () => ({ meta: [{ title: "Budgets — Expenses Manager" }] }),
   component: BudgetsPage,
 });
 
