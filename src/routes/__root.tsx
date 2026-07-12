@@ -79,14 +79,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Paisa — Smart Expense Tracker" },
+      { title: "Expenses Manager — Smart Expense Tracker" },
       {
         name: "description",
         content:
-          "Track income, expenses, budgets and analytics with Paisa — a clean, modern personal finance dashboard.",
+          "Track income, expenses, budgets and analytics with Expenses Manager — a clean, modern personal finance dashboard.",
       },
       { name: "author", content: "Shivam Mourya" },
-      { property: "og:title", content: "Paisa — Smart Expense Tracker" },
+      { property: "og:title", content: "Expenses Manager — Smart Expense Tracker" },
       {
         property: "og:description",
         content: "Clean, modern expense tracking with budgets, analytics and export.",

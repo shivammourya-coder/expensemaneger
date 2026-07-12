@@ -23,7 +23,7 @@ import { inr } from "@/lib/format";
 import { getCategoryDef } from "@/lib/categories";
 
 export const Route = createFileRoute("/_authenticated/analytics")({
-  head: () => ({ meta: [{ title: "Analytics — Paisa" }] }),
+  head: () => ({ meta: [{ title: "Analytics — Expenses Manager" }] }),
   component: AnalyticsPage,
 });
 

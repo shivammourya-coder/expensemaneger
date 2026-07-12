@@ -19,7 +19,7 @@ import { Trash2, Tag } from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/_authenticated/categories")({
-  head: () => ({ meta: [{ title: "Categories — Paisa" }] }),
+  head: () => ({ meta: [{ title: "Categories — Expenses Manager" }] }),
   component: CategoriesPage,
 });
 
