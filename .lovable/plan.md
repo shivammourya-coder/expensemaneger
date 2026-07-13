@@ -1,9 +1,6 @@
-Add the exact Google Search Console verification meta tag to the site-wide `<head>` and redeploy.
+Plan: Publish latest SEO files to make them live
 
-### Steps
-1. **Insert meta tag** into `src/routes/__root.tsx` inside the existing `head()` `meta` array, without changing any other tags or content:
-   ```tsx
-   { name: "google-site-verification", content: "PxVCAAJqIHloSlakfwG2HkLWDaM-L2f-hjdtUejgqgQ" }
-   ```
-2. **Verify** with a quick typecheck/build to ensure no regressions.
-3. **Publish** the project so the updated `<head>` goes live on the deployed URL.
+1. Trigger a new publish/deploy of the project so the recently added `public/robots.txt` and `src/routes/sitemap[.]xml.ts` become live on the public URL.
+2. Verify the public URL serves `/robots.txt` and `/sitemap.xml` correctly after deployment.
+
+No other changes to existing functionality.
