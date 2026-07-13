@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://expensemanager-sigma.vercel.app/sitemap.xml
